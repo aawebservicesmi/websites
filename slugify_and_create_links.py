@@ -4,7 +4,7 @@ import re
 # ==========================================
 # CONFIGURATION
 # Set DRY_RUN to False when you are ready to apply changes!
-DRY_RUN = True
+DRY_RUN = False
 BASE_URL = "https://aawebservicesmi.github.io/websites/"
 # ==========================================
 
