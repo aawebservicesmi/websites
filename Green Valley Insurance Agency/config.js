@@ -1,0 +1,206 @@
+// ============================================================
+// BUSINESS CONFIG — Green Valley Insurance Agency
+// ============================================================
+
+const CONFIG = {
+  // ----------------------------------------------------------
+  // THEME
+  // ----------------------------------------------------------
+  theme: "professional",
+
+  // ----------------------------------------------------------
+  // BUSINESS BASICS
+  // ----------------------------------------------------------
+  business: {
+    name: "Green Valley Insurance Agency",
+    shortName: "GreenValley",
+    tagline: "Your trusted partner for comprehensive insurance solutions.",
+    description: "Green Valley Insurance Agency is an independent insurance agency dedicated to providing personalized coverage options for individuals, families, and businesses in Shelby Township and surrounding areas.",
+    type: "Insurance Agency",
+    founded: "2010",
+  },
+
+  // ----------------------------------------------------------
+  // COLORS & FONTS
+  // ----------------------------------------------------------
+  branding: {
+    primaryColor: "#2C3E50",
+    secondaryColor: "#4A6572",
+    accentColor: "#3498DB",
+    textDark: "#1B1B1B",
+    textLight: "#F5F7F6",
+    bgLight: "#F0F2F5",
+    fontHeading: "Bebas Neue",
+    fontBody: "Lato",
+  },
+
+  // ----------------------------------------------------------
+  // CONTACT INFO
+  // ----------------------------------------------------------
+  contact: {
+    phone: "(248) 555-0100",
+    phoneRaw: "2485550100",
+    email: "info@greenvalley.com",
+    address: {
+      street: "1450 Business Parkway",
+      city: "Rochester Hills",
+      state: "MI",
+      zip: "48309",
+    },
+    website: "www.greenvalley.com",
+    mapsEmbed: "",
+  },
+
+  // ----------------------------------------------------------
+  // HOURS
+  // ----------------------------------------------------------
+  hours: [
+    { days: "Monday – Friday", time: "8 AM – 6 PM" },
+    { days: "Saturday", time: "9 AM – 2 PM" },
+    { days: "Sunday", time: "Closed" },
+  ],
+
+  // ----------------------------------------------------------
+  // ASSETS
+  // ----------------------------------------------------------
+  assets: {
+    heroVideo: "",
+  },
+
+  // ----------------------------------------------------------
+  // PRELOADER
+  // ----------------------------------------------------------
+  preloader: {
+    text: "Preparing your experience...",
+    logoText: "GreenValley",
+  },
+
+  // ----------------------------------------------------------
+  // NAVIGATION
+  // ----------------------------------------------------------
+  navigation: [
+    { label: "Home", href: "#home", isAnchor: true },
+    { label: "Services", href: "#services", isAnchor: true },
+    { label: "About", href: "#story", isAnchor: true },
+    { label: "Contact", href: "#contact", isAnchor: true },
+  ],
+
+  // ----------------------------------------------------------
+  // HERO SECTION
+  // ----------------------------------------------------------
+  hero: {
+    taglineWords: ["Welcome", "to", "GreenValley"],
+    title: "Green Valley Insurance Agency",
+    titleEmoji: "🚀",
+    description: "Your trusted partner for comprehensive insurance solutions.",
+    stats: [
+      { number: 5, label: "Years in Business" },
+      { number: 100, label: "Happy Clients" },
+    ],
+    primaryBtn: { label: "Learn More", href: "#services" },
+    secondaryBtn: { label: "Contact Us", href: "#contact" },
+    scrollText: "Scroll to learn more",
+  },
+
+  // ----------------------------------------------------------
+  // FEATURED SERVICES
+  // ----------------------------------------------------------
+  featured: {
+    enabled: true,
+    subtitle: "Our Services",
+    heading: "What We Offer",
+    description: "Discover our range of services tailored to meet your needs.",
+    ctaLabel: "Get Started →",
+    ctaHref: "#contact",
+    items: [
+      { name: "Auto Insurance", description: "Comprehensive auto coverage that protects you and your vehicle on the road.", badge: "Popular" },
+      { name: "Homeowners Insurance", description: "Tailored homeowners policies safeguarding your property and belongings.", badge: "" },
+      { name: "Business Insurance", description: "Custom business insurance solutions to protect your company's assets and liabilities.", badge: "" },
+    ],
+  },
+
+  // ----------------------------------------------------------
+  // EXPERIENCE / PROCESS SECTION
+  // ----------------------------------------------------------
+  experience: {
+    enabled: true,
+    subtitle: "Our Process",
+    heading: "How We Work",
+    badgeNumber: "01",
+    badgeText: "Professional Service",
+    imageAlt: "Professional at work",
+    features: [
+      { icon: "🔍", title: "Free Consultation", description: "We start with a no-obligation consultation to understand your unique needs and risk profile." },
+      { icon: "🛠️", title: "Customized Plan", description: "Our experts design a tailored insurance plan that offers optimal coverage and value." },
+      { icon: "📦", title: "Ongoing Support", description: "We provide continuous service, policy reviews, and claims assistance whenever you need us." },
+    ],
+  },
+
+  // ----------------------------------------------------------
+  // STORY / ABOUT SECTION
+  // ----------------------------------------------------------
+  story: {
+    enabled: true,
+    subtitle: "Who We Are",
+    heading: "Our Story",
+    paragraphs: [
+      "Founded in 2010 by a team of seasoned insurance professionals, Green Valley Insurance Agency was built on the belief that every client deserves personalized attention and transparent guidance.",
+      "Over the years, we have earned a 4.9-star rating on Google from 91 satisfied customers, reflecting our commitment to exceptional service and community trust in Shelby Township.",
+    ],
+    quote: "\"Quality service is our promise.\"",
+    quoteTranslation: "We deliver the best service possible.",
+    pullQuote: "We don’t just work for you—we work with you.",
+    pullQuoteAuthor: "GreenValley Team",
+    ctaLabel: "Get in Touch",
+    ctaHref: "#contact",
+  },
+
+  // ----------------------------------------------------------
+  // OFFERINGS / CTA CARDS
+  // ----------------------------------------------------------
+  offerings: {
+    enabled: true,
+    subtitle: "How We Help",
+    heading: "Our Solutions",
+    cards: [
+      { emoji: "🏠", title: "Personal Coverage", body: "Protect your home, car, and personal assets with policies designed for individuals and families.", ctaLabel: "Learn More →", ctaHref: "#contact" },
+      { emoji: "🏢", title: "Commercial Coverage", body: "Secure your business with comprehensive liability, property, and workers' compensation insurance.", ctaLabel: "Learn More →", ctaHref: "#contact" },
+    ],
+  },
+
+  // ----------------------------------------------------------
+  // REVIEW BANNER
+  // ----------------------------------------------------------
+  pressQuote: {
+    enabled: true,
+    quote: "Professional, responsive, and effective. Highly recommended!",
+    source: "Verified Customer",
+    stars: 5,
+  },
+
+  // ----------------------------------------------------------
+  // SPECIALS / PROMOS
+  // ----------------------------------------------------------
+  specials: {
+    enabled: true,
+    emoji: "💲",
+    items: [
+      { label: "Special Offer 1", detail: "Limited time" },
+      { label: "Special Offer 2", detail: "Ongoing" },
+    ],
+  },
+
+  // ----------------------------------------------------------
+  // FOOTER
+  // ----------------------------------------------------------
+  footer: {
+    tagline: "Green Valley Insurance Agency Since 2010",
+    copyright: "© Green Valley Insurance Agency. All rights reserved.",
+    links: [
+      { label: "Home", href: "index.html" },
+      { label: "Services", href: "#services" },
+      { label: "About", href: "#story" },
+      { label: "Contact", href: "#contact" },
+    ],
+  },
+};
